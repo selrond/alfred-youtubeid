@@ -1,0 +1,37 @@
+{
+  "name": "alfred-youtubeid",
+  "version": "0.0.0",
+  "description": "Get YouTube video by its ID",
+  "license": "MIT",
+  "repository": "selrond/alfred-youtubeid",
+  "author": {
+    "name": "Sebastian Andil",
+    "url": "twitter.com/selrond"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.22.0",
+    "xo": "^0.18.2"
+  }
+}
